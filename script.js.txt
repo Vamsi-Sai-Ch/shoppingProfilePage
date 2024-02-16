@@ -1,0 +1,25 @@
+function fetchData() {
+    fetch("https://products-api-2ttf.onrender.com/api/products")
+        .then((response) => response.json())
+        .then((data) => {
+            for (let item of data) {
+                if (item.title === "Latest Edition") {
+                    let img_2 = document.createElement("img");
+                    img_2.src = item.image;
+                    img_2.classList.add("image_setting");
+                    document.getElementById("twoTwo").appendChild(img_2);
+                }
+                if (item.title === "Shirts" || item.title === "Hoodies") {
+                    let img = document.createElement("img");
+                    img.src = item.image;
+                    img.classList.add("image_setting");
+                    document.getElementById("threeOne").appendChild(img);
+                }
+            }
+        })
+        .catch((error) => {
+            console.error(error);
+        });
+}
+
+window.onload = fetchData;

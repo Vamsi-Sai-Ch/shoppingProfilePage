@@ -1,0 +1,81 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.page_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.partSearch {
+    padding-right: 50px;
+
+}
+
+.search_part {
+    padding-top: 20px;
+}
+
+.main_partOne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.socialNetworkPart {
+    display: flex;
+    flex-direction: row;
+}
+
+#instaLogo {
+    padding-top: 20px;
+}
+
+.main_partTwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+
+.button_one {
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    box-shadow: 5px 5px 10px orange;
+}
+
+.button_two {
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.main_partThree {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#threeOne {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.image_setting {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}

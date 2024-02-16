@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Shopping Page</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/2bd4f2949a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="shopping_page">
+        <header class="page_header">
+            <p class="company_name">Shopping.com</p>
+            <i class="fa-solid fa-user"></i>
+        </header>
+    </div>
+    <main class="page_main">
+        <div class="main_partOne">
+            <div class="search_part">
+                <input type="search" placeholder="search videos, people and more" id="searchPart" class="partSearch" />
+
+            </div>
+            <div class="socialNetworkPart">
+                <h6 class="sNHeading">Instagram<span><br></span></h6>
+                <br>
+                <i class="fa-brands fa-instagram" id="instaLogo"></i>
+            </div>
+        </div>
+        <div class="main_partTwo">
+            <div class="two_one">
+
+                <hr class="line_break">
+                <h1 class="line_one">FABRIC THAT</h1>
+                <hr class="line_break">
+                <h1 class="line_two">SPEAKS</h1>
+                <hr class="line_break">
+
+                <div class="button_part">
+                    <button class="button_one">VIEW ALL</button>
+                    <button class="button_two">WATCH NOW</button>
+                </div>
+            </div>
+            <div class="two_two" id="twoTwo">
+
+            </div>
+        </div>
+        <div class="main_partThree">
+            <div class="three_one" id="threeOne"></div>
+            <div class="three_two">
+                <p class="para_one">
+                    <i class="fa-solid fa-quote-left"></i>
+                    Fashion is not about clothes, it is about a look.
+                    <i class="fa-solid fa-quote-right"></i>
+                </p>
+            </div>
+        </div>
+    </main>
+</body>
